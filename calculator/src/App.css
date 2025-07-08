@@ -40,3 +40,39 @@
 .read-the-docs {
   color: #888;
 }
+
+#calculator {
+  background-color: rgb(52, 52, 52);
+  width: 16rem;
+  height: 25rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 1px;
+}
+
+#display {
+  border: 1px red solid;
+  background-color: blueviolet;
+  grid-area: 1/1/1/5;
+}
+
+#ac {
+  grid-area: 2/1/2/3;
+  background-color: rgb(171, 57, 4);
+}
+
+#equals {
+  background-color: antiquewhite;
+  grid-area: 5/4/7/5;
+}
+#zero {
+  background-color: green;
+  grid-area: 6/1/6/3;
+}
+
+.key {
+  border-radius: 0px;
+  background-color: #636363;
+}
